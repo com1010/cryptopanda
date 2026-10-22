@@ -147,6 +147,10 @@ INDEX = head(BRAND + ' — 香港 HKDOTC 聯盟 OTC 門市 | 尖沙咀實體店'
 # ---------- hero ----------
 INDEX += f'''
 <section class="hero">
+  <div class="wrap">
+    <p class="hero-banner-title">香港 HKDOTC 聯盟 CryptoPanda.cc 加密熊貓</p>
+    <img class="hero-banner" src="assets/img/a9dcb4ada9.jpg" alt="CryptoPanda.cc 加密熊貓 × HKDOTC.com 香港OTC聯盟" />
+  </div>
   <div class="wrap hero-grid">
     <div>
       <p class="kicker">香港 HKDOTC 聯盟 · 尖沙咀實體 OTC 門市</p>
@@ -155,7 +159,7 @@ INDEX += f'''
       HKOTC 為香港人提供的最方便及快捷購買比特幣 BTC / USDT 等數字虛擬資產的方法——一個 WhatsApp 信息完成交易，平均 10 分鐘，價格實時更新，沒有隱藏費用。</p>
       <div class="hero-actions">
         <a class="btn primary" href="https://wa.me/85268048411">📞 WhatsApp +852-68048411</a>
-        <a class="btn ghost" href="#rates">查看報價 Quotation</a>
+        <a class="btn ghost" href="#rates">諮詢 Agent Connect</a>
       </div>
       <p class="hero-note">Tel / WhatsApp: 68048411 · 65210711 · 36282659</p>
     </div>
