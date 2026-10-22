@@ -49,7 +49,7 @@ JSONLD = '''<script type="application/ld+json">
   "@type": "FAQPage",
   "mainEntity": [
     {"@type": "Question", "name": "為什麼使用 WhatsApp 交易？ Why use WhatsApp to trade?",
-     "acceptedAnswer": {"@type": "Answer", "text": "在 WhatsApp 內傳訊息給交易員，告訴交易員你想交易什麼，交易員會即時報價。一個信息就可以完成交易，交易時間平均只需 10 分鐘。"}},
+     "acceptedAnswer": {"@type": "Answer", "text": "在 WhatsApp 內傳訊息給交易員，告訴交易員你想交易什麼，交易員會即時回覆諮詢。一個信息就可以完成交易，交易時間平均只需 10 分鐘。"}},
     {"@type": "Question", "name": "最低交易量是多少？ What is the minimum trading volume?",
      "acceptedAnswer": {"@type": "Answer", "text": "請 WhatsApp +852-68048411 向客服查詢即時最低交易量。所有交易額在 HKD$5,000 以下收取 HKD$100 手續費。"}},
     {"@type": "Question", "name": "誰支付礦工費？ Who pays for the miners fee?",
@@ -228,14 +228,14 @@ INDEX += '''
     <table class="rate-table">
       <thead><tr><th>貨幣 Currency</th><th>幣種</th><th>收價 We Buy</th><th>售價 We Sell</th></tr></thead>
       <tbody>
-        <tr><td>比特幣 Bitcoin</td><td>BTC</td><td colspan="2" class="mid">WhatsApp +852-68048411 即時報價</td></tr>
-        <tr><td>以太幣 Ethereum</td><td>ETH</td><td colspan="2" class="mid">WhatsApp +852-68048411 即時報價</td></tr>
-        <tr><td>泰達幣 Tether</td><td>USDT / USDC</td><td colspan="2" class="mid">WhatsApp +852-68048411 即時報價</td></tr>
-        <tr><td>萊特幣 Litecoin</td><td>LTC</td><td colspan="2" class="mid">WhatsApp +852-68048411 即時報價</td></tr>
-        <tr><td>比特幣現金 Bitcoin Cash</td><td>BCH</td><td colspan="2" class="mid">WhatsApp +852-68048411 即時報價</td></tr>
-        <tr><td>Chainlink 代幣 / 瑞波幣 / 狗狗幣</td><td>LINK / XRP / DOGE</td><td colspan="2" class="mid">WhatsApp +852-68048411 即時報價</td></tr>
-        <tr><td>Solana / Cardano / 波卡</td><td>SOL / ADA / DOT</td><td colspan="2" class="mid">WhatsApp +852-68048411 即時報價</td></tr>
-        <tr><td>黃金 Gold</td><td>AUT</td><td colspan="2" class="mid">WhatsApp +852-68048411 即時報價</td></tr>
+        <tr><td>比特幣 Bitcoin</td><td>BTC</td><td colspan="2" class="mid">WhatsApp +852-68048411 諮詢</td></tr>
+        <tr><td>以太幣 Ethereum</td><td>ETH</td><td colspan="2" class="mid">WhatsApp +852-68048411 諮詢</td></tr>
+        <tr><td>泰達幣 Tether</td><td>USDT / USDC</td><td colspan="2" class="mid">WhatsApp +852-68048411 諮詢</td></tr>
+        <tr><td>萊特幣 Litecoin</td><td>LTC</td><td colspan="2" class="mid">WhatsApp +852-68048411 諮詢</td></tr>
+        <tr><td>比特幣現金 Bitcoin Cash</td><td>BCH</td><td colspan="2" class="mid">WhatsApp +852-68048411 諮詢</td></tr>
+        <tr><td>Chainlink 代幣 / 瑞波幣 / 狗狗幣</td><td>LINK / XRP / DOGE</td><td colspan="2" class="mid">WhatsApp +852-68048411 諮詢</td></tr>
+        <tr><td>Solana / Cardano / 波卡</td><td>SOL / ADA / DOT</td><td colspan="2" class="mid">WhatsApp +852-68048411 諮詢</td></tr>
+        <tr><td>黃金 Gold</td><td>AUT</td><td colspan="2" class="mid">WhatsApp +852-68048411 諮詢</td></tr>
       </tbody>
     </table>
     <ol class="notes">
