@@ -148,7 +148,7 @@ INDEX = head(BRAND + ' — 香港 HKDOTC 聯盟 OTC 門市 | 尖沙咀實體店'
 INDEX += f'''
 <section class="hero">
   <div class="wrap">
-    <p class="hero-banner-title">香港 HKDOTC 聯盟 CryptoPanda.cc 加密熊貓</p>
+    <p class="hero-banner-title"><a href="https://hkdotc.com/" target="_blank" rel="noopener">香港 HKDOTC 聯盟</a> CryptoPanda.cc 加密熊貓</p>
     <img class="hero-banner" src="assets/img/a9dcb4ada9.jpg" alt="CryptoPanda.cc 加密熊貓 × HKDOTC.com 香港OTC聯盟" />
   </div>
   <div class="wrap hero-grid">
